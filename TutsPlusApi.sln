@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.Demo1", "TutsPl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.Demo2", "TutsPlusApi.Demo2\TutsPlusApi.Demo2.csproj", "{DCF06607-D1AE-4655-96DF-A9AE60343917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.Demo3", "TutsPlusApi.Demo3\TutsPlusApi.Demo3.csproj", "{A17D033E-6CC0-4040-B9D7-4D5324F5B500}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DCF06607-D1AE-4655-96DF-A9AE60343917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF06607-D1AE-4655-96DF-A9AE60343917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF06607-D1AE-4655-96DF-A9AE60343917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17D033E-6CC0-4040-B9D7-4D5324F5B500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17D033E-6CC0-4040-B9D7-4D5324F5B500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17D033E-6CC0-4040-B9D7-4D5324F5B500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17D033E-6CC0-4040-B9D7-4D5324F5B500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
