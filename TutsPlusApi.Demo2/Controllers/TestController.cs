@@ -10,7 +10,8 @@ namespace TutsPlusApi.Demo2.Controllers
     public class Sample
     {
         public int Id { get; set; }
-        public string Description { get; set; } 
+        public string Description { get; set; }
+        public DateTime Date { get; set; }
     }
     public class TestController : ApiController
     {
@@ -32,7 +33,7 @@ namespace TutsPlusApi.Demo2.Controllers
 
         public IHttpActionResult Get(int id)
         {
-            var sample = new Sample {Id = 1, Description = "John"};
+            var sample = new Sample {Id = 1, Description = "Test Description",Date = DateTime.Now};
             return Ok(sample);
         }
 
@@ -44,5 +45,9 @@ namespace TutsPlusApi.Demo2.Controllers
         {
             return Ok(sample);
         }
+        //public IHttpActionResult Post([FromUri]Sample sample)
+        //{
+        //    return Ok(sample);
+        //}
     }
 }
