@@ -88,9 +88,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\StatsDbContext.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708300149024_InitialSetup.cs" />
+    <Compile Include="Migrations\201708300149024_InitialSetup.Designer.cs">
+      <DependentUpon>201708300149024_InitialSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708300155092_Added_Account.cs" />
+    <Compile Include="Migrations\201708300155092_Added_Account.Designer.cs">
+      <DependentUpon>201708300155092_Added_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +119,14 @@
     <Folder Include="Controllers\" />
     <Folder Include="DataAccess\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201708300149024_InitialSetup.resx">
+      <DependentUpon>201708300149024_InitialSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708300155092_Added_Account.resx">
+      <DependentUpon>201708300155092_Added_Account.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
