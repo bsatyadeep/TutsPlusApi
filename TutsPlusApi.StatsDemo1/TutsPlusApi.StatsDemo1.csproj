@@ -100,9 +100,15 @@
     <Compile Include="DataAccess\Entities\Player.cs" />
     <Compile Include="DataAccess\Entities\ReportingBase.cs" />
     <Compile Include="DataAccess\Entities\Team.cs" />
+    <Compile Include="DataAccess\IStatsService.cs" />
+    <Compile Include="DataAccess\Repository\EventRepository.cs" />
+    <Compile Include="DataAccess\Repository\GameRepository.cs" />
     <Compile Include="DataAccess\Repository\IRepository.cs" />
+    <Compile Include="DataAccess\Repository\PlayerRepository.cs" />
     <Compile Include="DataAccess\Repository\Repository.cs" />
+    <Compile Include="DataAccess\Repository\TeamRepository.cs" />
     <Compile Include="DataAccess\StatsDbContext.cs" />
+    <Compile Include="DataAccess\StatsService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
