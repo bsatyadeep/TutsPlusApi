@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.Demo5", "TutsPl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.Stats", "TutsPlusApi.Stats\TutsPlusApi.Stats.csproj", "{B116FE3F-2D70-47FA-B4B4-CF96474F8E4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutsPlusApi.StatsDemo1", "TutsPlusApi.StatsDemo1\TutsPlusApi.StatsDemo1.csproj", "{4581DEAC-A0EB-4127-9241-61ED14B56C27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B116FE3F-2D70-47FA-B4B4-CF96474F8E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B116FE3F-2D70-47FA-B4B4-CF96474F8E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B116FE3F-2D70-47FA-B4B4-CF96474F8E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4581DEAC-A0EB-4127-9241-61ED14B56C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4581DEAC-A0EB-4127-9241-61ED14B56C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4581DEAC-A0EB-4127-9241-61ED14B56C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4581DEAC-A0EB-4127-9241-61ED14B56C27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
