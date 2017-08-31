@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="DataAccess\Entities\EntityBase.cs" />
     <Compile Include="DataAccess\Entities\Game.cs" />
     <Compile Include="DataAccess\Entities\GameEvent.cs" />
@@ -117,6 +118,9 @@
       <DependentUpon>201708300221006_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\IModelFactory.cs" />
+    <Compile Include="Models\ModelFactory.cs" />
+    <Compile Include="Models\PlayerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,8 +134,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201708300221006_Initial.resx">
